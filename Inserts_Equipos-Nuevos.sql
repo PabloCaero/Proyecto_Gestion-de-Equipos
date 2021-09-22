@@ -255,3 +255,10 @@ Insert Into Oficinas(ID, Nombre) Values(100,'SECRETARIA DE GOBIERNO'),
 (996,'POLIDEP. Nº 18  ÑATO ERRECART'),
 (997,'TORNEOS');
 
+--REGISTROS DE Cuentas--
+Insert Into Cuentas(Descripcion) Values('[Sin cuenta asociada]'),
+('informatica@tigre.gob.ar'),
+('licenciasinformatica@tigre.gob.ar'),
+('licenciasinformatica2@tigre.gob.ar'),
+('licenciasinformatica3@tigre.gob.ar'),
+('licenciasinformatica4@tigre.gob.ar');

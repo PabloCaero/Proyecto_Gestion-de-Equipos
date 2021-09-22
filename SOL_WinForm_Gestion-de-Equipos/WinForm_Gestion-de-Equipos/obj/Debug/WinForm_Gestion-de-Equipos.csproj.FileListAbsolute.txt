@@ -1,0 +1,9 @@
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\bin\Debug\WinForm_Gestion-de-Equipos.exe.config
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\bin\Debug\WinForm_Gestion-de-Equipos.exe
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\bin\Debug\WinForm_Gestion-de-Equipos.pdb
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\obj\Debug\WinForm_Gestion-de-Equipos.csproj.AssemblyReference.cache
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\obj\Debug\WinForm_Gestion_de_Equipos.Properties.Resources.resources
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\obj\Debug\WinForm_Gestion-de-Equipos.csproj.GenerateResource.cache
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\obj\Debug\WinForm_Gestion-de-Equipos.csproj.CoreCompileInputs.cache
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\obj\Debug\WinForm_Gestion-de-Equipos.exe
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\obj\Debug\WinForm_Gestion-de-Equipos.pdb
