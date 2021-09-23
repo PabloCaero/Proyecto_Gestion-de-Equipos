@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Negocio
 {
-    class LicenciaWindowsNegocio
+    public class LicenciaWindowsNegocio
     {
     }
 }

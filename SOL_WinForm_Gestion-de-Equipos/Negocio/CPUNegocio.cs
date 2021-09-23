@@ -9,8 +9,6 @@ namespace Negocio
 {
     public class CPUNegocio
     {
-        private const string V = "')";
-
         public List<CPU> listar()
         {
             List<CPU> lista = new List<CPU>();
@@ -103,7 +101,7 @@ namespace Negocio
             }
         }
 
-        public List<CPU> buscarIDCPU(CPU buscar)
+        public List<CPU> buscarxID(CPU buscar)
         {
             List<CPU> lista = new List<CPU>();
             AccesoDatos datos = new AccesoDatos();
