@@ -10,17 +10,18 @@ namespace Dominio
     {
         public int IDEquipo { get; set; }
         public int Ticket { get; set; }
-        public Tecnico IDTecnicoAsignado { get; set; }
-        public Oficina IDOficina { get; set; }
+        public Tecnico Tecnico { get; set; }
+        public Oficina Oficina { get; set; }
         public string Nombre { get; set; }
         public string Tipo { get; set; }
-        public CPU IDCPU { get; set; }
-        public GPU IDGPU { get; set; }
-        public RAM IDRAM { get; set; }
-        public Disco IDDisco1 { get; set; }
-        public Disco IDDisco2 { get; set; }
-        public LicenciaWindows IDWindows { get; set; }
-        public LicenciaOffice IDOffice { get; set; }
+        public CPU CPU { get; set; }
+        public GPU GPU { get; set; }
+        public RAM RAM { get; set; }
+        public Disco Disco1 { get; set; }
+        public Disco Disco2 { get; set; }
+        public LicenciaWindows LicenciaWindows { get; set; }
+        public LicenciaOffice LicenciaOffice { get; set; }
+        public Cuenta Cuenta { get; set; }
 
     }
 }

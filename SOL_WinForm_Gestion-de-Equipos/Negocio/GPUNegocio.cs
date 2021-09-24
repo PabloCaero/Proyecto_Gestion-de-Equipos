@@ -45,7 +45,7 @@ namespace Negocio
             try
             {
                 datos.setearConsulta("Insert into GPUs (Descripcion) values (@Descripcion)");
-                datos.setearParametros("@Descripcion", nuevo.Descripcion)
+                datos.setearParametros("@Descripcion", nuevo.Descripcion);
                 datos.ejecutarAccion();
 
             }

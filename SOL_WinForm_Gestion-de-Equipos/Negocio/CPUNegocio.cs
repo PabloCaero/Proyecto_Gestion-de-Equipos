@@ -16,7 +16,7 @@ namespace Negocio
 
             try
             {
-                datos.setearConsulta("Select ID, Descripcion From CPUs);
+                datos.setearConsulta("Select ID, Descripcion From CPUs");
                 datos.ejecturaLectura();
 
                 while (datos.Lector.Read())
@@ -44,8 +44,7 @@ namespace Negocio
 
             try
             {
-                datos.setearConsulta("Insert into CPUs (ID, Descripcion) values (@ID, @Descripcion)");
-                datos.setearParametros("@ID", nuevo.IDCPU);
+                datos.setearConsulta("Insert into CPUs (Descripcion) values (@Descripcion)");
                 datos.setearParametros("@Descripcion", nuevo.Descripcion);
                 datos.ejecutarAccion();
 
@@ -66,8 +65,7 @@ namespace Negocio
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                datos.setearConsulta("Update CPUs set ID = @ID, Descripcion = @Descripcion Where ID = " + nuevo.IDCPU + "");
-                datos.setearParametros("@ID", nuevo.IDCPU);
+                datos.setearConsulta("Update CPUs set Descripcion = @Descripcion Where ID = " + nuevo.IDCPU + "");
                 datos.setearParametros("@Descripcion", nuevo.Descripcion);
                 datos.ejecutarAccion();
 

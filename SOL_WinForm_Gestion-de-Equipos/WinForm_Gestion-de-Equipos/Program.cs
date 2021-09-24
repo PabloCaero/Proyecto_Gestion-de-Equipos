@@ -16,7 +16,7 @@ namespace WinForm_Gestion_de_Equipos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmMenuPrincipal());
         }
     }
 }

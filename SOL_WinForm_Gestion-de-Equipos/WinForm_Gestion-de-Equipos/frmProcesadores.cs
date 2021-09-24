@@ -7,14 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Dominio;
+using Negocio;
 
 namespace WinForm_Gestion_de_Equipos
 {
-    public partial class Form1 : Form
+    public partial class frmProcesadores : Form
     {
-        public Form1()
+        public frmProcesadores()
         {
             InitializeComponent();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

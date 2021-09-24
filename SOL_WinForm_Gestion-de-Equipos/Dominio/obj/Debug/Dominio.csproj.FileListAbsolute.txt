@@ -1,0 +1,6 @@
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\Dominio\bin\Debug\Dominio.dll
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\Dominio\bin\Debug\Dominio.pdb
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\Dominio\obj\Debug\Dominio.dll
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\Dominio\obj\Debug\Dominio.pdb

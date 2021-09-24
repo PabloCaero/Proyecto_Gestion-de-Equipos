@@ -1,0 +1,9 @@
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\Negocio\bin\Debug\Negocio.dll
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\Negocio\bin\Debug\Negocio.pdb
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\Negocio\bin\Debug\Dominio.dll
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\Negocio\bin\Debug\Dominio.pdb
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\Negocio\obj\Debug\Negocio.dll
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\Negocio\obj\Debug\Negocio.pdb
