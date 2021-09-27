@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAltaProcesador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAltaProcesador.Designer.cs">
+      <DependentUpon>frmAltaProcesador.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmHerramientas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAltaProcesador.resx">
+      <DependentUpon>frmAltaProcesador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmHerramientas.resx">
       <DependentUpon>frmHerramientas.cs</DependentUpon>
     </EmbeddedResource>

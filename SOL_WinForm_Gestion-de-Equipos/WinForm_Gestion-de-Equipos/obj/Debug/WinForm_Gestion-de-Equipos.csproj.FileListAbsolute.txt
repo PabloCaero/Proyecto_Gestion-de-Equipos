@@ -15,3 +15,4 @@ C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equip
 C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\bin\Debug\Dominio.pdb
 C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\bin\Debug\Negocio.pdb
 C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\obj\Debug\WinForm_Gestion-de-Equipos.csproj.CopyComplete
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\obj\Debug\WinForm_Gestion_de_Equipos.frmAltaProcesador.resources
