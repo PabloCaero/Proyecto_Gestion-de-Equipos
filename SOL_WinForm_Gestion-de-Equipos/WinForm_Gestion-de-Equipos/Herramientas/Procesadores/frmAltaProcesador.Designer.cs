@@ -41,9 +41,9 @@ namespace WinForm_Gestion_de_Equipos
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(156, 16);
+            this.label1.Size = new System.Drawing.Size(176, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Nombre del Procesador:";
+            this.label1.Text = "Descripción del Procesador";
             // 
             // txtNombreProcesador
             // 

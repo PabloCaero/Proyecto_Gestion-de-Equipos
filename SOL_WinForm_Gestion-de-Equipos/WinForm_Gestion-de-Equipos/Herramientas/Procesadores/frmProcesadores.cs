@@ -27,9 +27,11 @@ namespace WinForm_Gestion_de_Equipos
 
         private void frmProcesadores_Load(object sender, EventArgs e)
         {
+
             CPUNegocio negocio = new CPUNegocio();
             listaCPU = negocio.listar();
             dgvProcesadores.DataSource = listaCPU;
+            
         }
 
         private void dgvProcesadores_SelectionChanged(object sender, EventArgs e)
@@ -53,7 +55,19 @@ namespace WinForm_Gestion_de_Equipos
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
+            CPU seleccionado = (CPU)dgvProcesadores.CurrentRow.DataBoundItem;
+            frmModificarProcesador modificar = new frmModificarProcesador(seleccionado);
+            modificar.ShowDialog();
+        }
 
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            CPUNegocio negocio = new CPUNegocio();
+            CPU seleccionado = (CPU)dgvProcesadores.CurrentRow.DataBoundItem;
+            string nombreTemporal;
+            nombreTemporal = seleccionado.Descripcion;
+            negocio.eliminar(seleccionado);
+            MessageBox.Show("CPU " + nombreTemporal + " eliminado correctamente");
         }
     }
 }

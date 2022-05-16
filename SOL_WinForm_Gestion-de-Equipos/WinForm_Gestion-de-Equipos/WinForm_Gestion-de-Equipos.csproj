@@ -46,16 +46,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmAltaProcesador.cs">
+    <Compile Include="Herramientas\Memorias RAM\frmAltaMemoria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAltaProcesador.Designer.cs">
+    <Compile Include="Herramientas\Memorias RAM\frmAltaMemoria.Designer.cs">
+      <DependentUpon>frmAltaMemoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\Memorias RAM\frmMemorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\Memorias RAM\frmMemorias.Designer.cs">
+      <DependentUpon>frmMemorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\Memorias RAM\frmModificarMemoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\Memorias RAM\frmModificarMemoria.Designer.cs">
+      <DependentUpon>frmModificarMemoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\Placas Graficas\frmAltaPlacaGrafica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\Placas Graficas\frmAltaPlacaGrafica.Designer.cs">
+      <DependentUpon>frmAltaPlacaGrafica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\Placas Graficas\frmModificarPlacaGrafica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\Placas Graficas\frmModificarPlacaGrafica.Designer.cs">
+      <DependentUpon>frmModificarPlacaGrafica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\Placas Graficas\frmPlacasGraficas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\Placas Graficas\frmPlacasGraficas.Designer.cs">
+      <DependentUpon>frmPlacasGraficas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\Procesadores\frmAltaProcesador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\Procesadores\frmAltaProcesador.Designer.cs">
       <DependentUpon>frmAltaProcesador.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmHerramientas.cs">
+    <Compile Include="Herramientas\frmHerramientas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmHerramientas.Designer.cs">
+    <Compile Include="Herramientas\frmHerramientas.Designer.cs">
       <DependentUpon>frmHerramientas.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMenuPrincipal.cs">
@@ -64,24 +100,51 @@
     <Compile Include="frmMenuPrincipal.Designer.cs">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmProcesadores.cs">
+    <Compile Include="Herramientas\Procesadores\frmModificarProcesador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmProcesadores.Designer.cs">
+    <Compile Include="Herramientas\Procesadores\frmModificarProcesador.Designer.cs">
+      <DependentUpon>frmModificarProcesador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\Procesadores\frmProcesadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\Procesadores\frmProcesadores.Designer.cs">
       <DependentUpon>frmProcesadores.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmAltaProcesador.resx">
+    <EmbeddedResource Include="Herramientas\Memorias RAM\frmAltaMemoria.resx">
+      <DependentUpon>frmAltaMemoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\Memorias RAM\frmMemorias.resx">
+      <DependentUpon>frmMemorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\Memorias RAM\frmModificarMemoria.resx">
+      <DependentUpon>frmModificarMemoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\Placas Graficas\frmAltaPlacaGrafica.resx">
+      <DependentUpon>frmAltaPlacaGrafica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\Placas Graficas\frmModificarPlacaGrafica.resx">
+      <DependentUpon>frmModificarPlacaGrafica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\Placas Graficas\frmPlacasGraficas.resx">
+      <DependentUpon>frmPlacasGraficas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\Procesadores\frmAltaProcesador.resx">
       <DependentUpon>frmAltaProcesador.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmHerramientas.resx">
+    <EmbeddedResource Include="Herramientas\frmHerramientas.resx">
       <DependentUpon>frmHerramientas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMenuPrincipal.resx">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmProcesadores.resx">
+    <EmbeddedResource Include="Herramientas\Procesadores\frmModificarProcesador.resx">
+      <DependentUpon>frmModificarProcesador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\Procesadores\frmProcesadores.resx">
       <DependentUpon>frmProcesadores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -122,6 +185,13 @@
       <Project>{327b555a-006f-447e-9464-6ef493f577ff}</Project>
       <Name>Negocio</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Herramientas\Discos\" />
+    <Folder Include="Herramientas\Licencias de Office\" />
+    <Folder Include="Herramientas\Licencias de Windows\" />
+    <Folder Include="Herramientas\Oficinas\" />
+    <Folder Include="Herramientas\Técnicos\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinForm_Gestion_de_Equipos.Herramientas.Memorias_RAM;
+using WinForm_Gestion_de_Equipos.Herramientas.PlacasGraficas;
 
 namespace WinForm_Gestion_de_Equipos
 {
@@ -26,6 +28,18 @@ namespace WinForm_Gestion_de_Equipos
         {
             frmProcesadores procesador = new frmProcesadores();
             procesador.ShowDialog();
+        }
+
+        private void btnPlacasGraficas_Click(object sender, EventArgs e)
+        {
+            frmPlacasGraficas placaGrafica = new frmPlacasGraficas();
+            placaGrafica.ShowDialog();
+        }
+
+        private void btnMemoriasRAM_Click(object sender, EventArgs e)
+        {
+            frmMemorias memoria = new frmMemorias();
+            memoria.ShowDialog();
         }
     }
 }

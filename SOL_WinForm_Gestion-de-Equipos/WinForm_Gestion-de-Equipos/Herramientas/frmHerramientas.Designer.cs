@@ -53,6 +53,7 @@ namespace WinForm_Gestion_de_Equipos
             this.btnPlacasGraficas.TabIndex = 2;
             this.btnPlacasGraficas.Text = "Placas Gráficas";
             this.btnPlacasGraficas.UseVisualStyleBackColor = true;
+            this.btnPlacasGraficas.Click += new System.EventHandler(this.btnPlacasGraficas_Click);
             // 
             // btnMemoriasRAM
             // 
@@ -63,6 +64,7 @@ namespace WinForm_Gestion_de_Equipos
             this.btnMemoriasRAM.TabIndex = 3;
             this.btnMemoriasRAM.Text = "Memorias RAM";
             this.btnMemoriasRAM.UseVisualStyleBackColor = true;
+            this.btnMemoriasRAM.Click += new System.EventHandler(this.btnMemoriasRAM_Click);
             // 
             // btnProcesadores
             // 
