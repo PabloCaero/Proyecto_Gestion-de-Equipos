@@ -86,6 +86,7 @@ namespace WinForm_Gestion_de_Equipos
             this.btnDiscos.TabIndex = 4;
             this.btnDiscos.Text = "Discos";
             this.btnDiscos.UseVisualStyleBackColor = true;
+            this.btnDiscos.Click += new System.EventHandler(this.btnDiscos_Click);
             // 
             // btnOficinas
             // 

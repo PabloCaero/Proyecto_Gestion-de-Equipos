@@ -23,3 +23,6 @@ C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equip
 C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\obj\Debug\WinForm_Gestion_de_Equipos.Herramientas.Memorias_RAM.frmAltaMemoria.resources
 C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\obj\Debug\WinForm_Gestion_de_Equipos.Herramientas.Memorias_RAM.frmMemorias.resources
 C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\obj\Debug\WinForm_Gestion_de_Equipos.Herramientas.Memorias_RAM.frmModificarMemoria.resources
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\obj\Debug\WinForm_Gestion_de_Equipos.Herramientas.Discos.frmDiscos.resources
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\obj\Debug\WinForm_Gestion_de_Equipos.Herramientas.Discos.frmAltaDisco.resources
+C:\Users\pcaero\Desktop\Proyecto_Gestion-de-Equipos\SOL_WinForm_Gestion-de-Equipos\WinForm_Gestion-de-Equipos\obj\Debug\WinForm_Gestion_de_Equipos.Herramientas.frmModificarDisco.resources

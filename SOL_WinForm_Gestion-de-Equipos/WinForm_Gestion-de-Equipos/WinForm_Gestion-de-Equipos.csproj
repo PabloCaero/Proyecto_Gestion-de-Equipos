@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Herramientas\Discos\frmAltaDisco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\Discos\frmAltaDisco.Designer.cs">
+      <DependentUpon>frmAltaDisco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\Discos\frmDiscos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\Discos\frmDiscos.Designer.cs">
+      <DependentUpon>frmDiscos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\frmModificarDisco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\frmModificarDisco.Designer.cs">
+      <DependentUpon>frmModificarDisco.cs</DependentUpon>
+    </Compile>
     <Compile Include="Herramientas\Memorias RAM\frmAltaMemoria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +132,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Herramientas\Discos\frmAltaDisco.resx">
+      <DependentUpon>frmAltaDisco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\Discos\frmDiscos.resx">
+      <DependentUpon>frmDiscos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\frmModificarDisco.resx">
+      <DependentUpon>frmModificarDisco.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Herramientas\Memorias RAM\frmAltaMemoria.resx">
       <DependentUpon>frmAltaMemoria.cs</DependentUpon>
     </EmbeddedResource>
@@ -187,7 +214,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Herramientas\Discos\" />
     <Folder Include="Herramientas\Licencias de Office\" />
     <Folder Include="Herramientas\Licencias de Windows\" />
     <Folder Include="Herramientas\Oficinas\" />

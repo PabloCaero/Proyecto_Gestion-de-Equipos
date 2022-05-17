@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinForm_Gestion_de_Equipos.Herramientas.Discos;
 using WinForm_Gestion_de_Equipos.Herramientas.Memorias_RAM;
 using WinForm_Gestion_de_Equipos.Herramientas.PlacasGraficas;
 
@@ -40,6 +41,12 @@ namespace WinForm_Gestion_de_Equipos
         {
             frmMemorias memoria = new frmMemorias();
             memoria.ShowDialog();
+        }
+
+        private void btnDiscos_Click(object sender, EventArgs e)
+        {
+            frmDiscos disco = new frmDiscos();
+            disco.ShowDialog();
         }
     }
 }
