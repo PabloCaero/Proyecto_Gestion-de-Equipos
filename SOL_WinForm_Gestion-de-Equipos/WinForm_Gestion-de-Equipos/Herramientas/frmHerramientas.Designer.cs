@@ -42,6 +42,7 @@ namespace WinForm_Gestion_de_Equipos
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnCuentas = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnPlacasGraficas
@@ -97,6 +98,7 @@ namespace WinForm_Gestion_de_Equipos
             this.btnOficinas.TabIndex = 6;
             this.btnOficinas.Text = "Oficinas";
             this.btnOficinas.UseVisualStyleBackColor = true;
+            this.btnOficinas.Click += new System.EventHandler(this.btnOficinas_Click);
             // 
             // btnLicenciasWindows
             // 
@@ -107,6 +109,7 @@ namespace WinForm_Gestion_de_Equipos
             this.btnLicenciasWindows.TabIndex = 7;
             this.btnLicenciasWindows.Text = "Licencias de Windows";
             this.btnLicenciasWindows.UseVisualStyleBackColor = true;
+            this.btnLicenciasWindows.Click += new System.EventHandler(this.btnLicenciasWindows_Click);
             // 
             // btnVolver
             // 
@@ -128,6 +131,7 @@ namespace WinForm_Gestion_de_Equipos
             this.btnLicenciasOffice.TabIndex = 8;
             this.btnLicenciasOffice.Text = "Licencias de Office";
             this.btnLicenciasOffice.UseVisualStyleBackColor = true;
+            this.btnLicenciasOffice.Click += new System.EventHandler(this.btnLicenciasOffice_Click);
             // 
             // btnTecnicos
             // 
@@ -138,6 +142,7 @@ namespace WinForm_Gestion_de_Equipos
             this.btnTecnicos.TabIndex = 5;
             this.btnTecnicos.Text = "Técnicos";
             this.btnTecnicos.UseVisualStyleBackColor = true;
+            this.btnTecnicos.Click += new System.EventHandler(this.btnTecnicos_Click);
             // 
             // label1
             // 
@@ -173,12 +178,24 @@ namespace WinForm_Gestion_de_Equipos
             this.label4.TabIndex = 19;
             this.label4.Text = "Herramientas";
             // 
+            // btnCuentas
+            // 
+            this.btnCuentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCuentas.Location = new System.Drawing.Point(21, 277);
+            this.btnCuentas.Name = "btnCuentas";
+            this.btnCuentas.Size = new System.Drawing.Size(250, 23);
+            this.btnCuentas.TabIndex = 20;
+            this.btnCuentas.Text = "Cuentas";
+            this.btnCuentas.UseVisualStyleBackColor = true;
+            this.btnCuentas.Click += new System.EventHandler(this.btnCuentas_Click);
+            // 
             // frmHerramientas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(292, 431);
+            this.Controls.Add(this.btnCuentas);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -215,5 +232,6 @@ namespace WinForm_Gestion_de_Equipos
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnCuentas;
     }
 }

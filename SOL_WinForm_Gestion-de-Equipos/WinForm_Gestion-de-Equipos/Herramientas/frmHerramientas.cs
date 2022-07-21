@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using WinForm_Gestion_de_Equipos.Herramientas.Discos;
 using WinForm_Gestion_de_Equipos.Herramientas.Memorias_RAM;
 using WinForm_Gestion_de_Equipos.Herramientas.PlacasGraficas;
+using WinForm_Gestion_de_Equipos.Herramientas.Oficinas;
 
 namespace WinForm_Gestion_de_Equipos
 {
@@ -47,6 +48,32 @@ namespace WinForm_Gestion_de_Equipos
         {
             frmDiscos disco = new frmDiscos();
             disco.ShowDialog();
+        }
+
+        private void btnOficinas_Click(object sender, EventArgs e)
+        {
+            frmOficinas oficina = new frmOficinas();
+            oficina.ShowDialog();
+        }
+
+        private void btnCuentas_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTecnicos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLicenciasWindows_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLicenciasOffice_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

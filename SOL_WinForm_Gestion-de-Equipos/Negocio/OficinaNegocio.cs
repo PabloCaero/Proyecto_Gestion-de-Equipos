@@ -44,8 +44,9 @@ namespace Negocio
 
             try
             {
-                datos.setearConsulta("Insert into Oficinas (Nombre) values (@Nombre)");
+                datos.setearConsulta("Insert into Oficinas (ID, Nombre) values (@ID, @Nombre)");
                 datos.setearParametros("@Nombre", nuevo.Nombre);
+                datos.setearParametros("@ID", nuevo.IDOficina);
                 datos.ejecutarAccion();
 
             }
